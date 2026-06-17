@@ -1,0 +1,48 @@
+# OSS Encyclopedia
+
+> A comprehensive, community-driven directory of the best free and open source software projects — documented in depth so anyone can discover, understand, and use them.
+
+## Purpose
+
+OSS Encyclopedia exists to make open source software more discoverable and accessible to everyone — from beginners to senior engineers. Instead of just linking to projects, every entry explains what a project is, what it does, how to use it, who it helps, and why it matters.
+
+## Structure
+
+The repository is organized into categories. Each category has its own folder containing an index file and one dedicated file per project. Every project file follows a consistent format covering description, features, usage examples, target audience, and license information.
+
+## Categories
+
+- Artificial Intelligence and Machine Learning
+- Developer Tools and Productivity
+- Web Frameworks and Backend Libraries
+- Databases and Data Storage
+- Security and Privacy Tools
+- Mobile Development
+- Command Line Tools and Terminal Utilities
+- Data Science and Scientific Computing
+- Game Development Engines and Frameworks
+- Cloud Infrastructure and DevOps
+
+## Entry Format
+
+Every project entry contains the following sections:
+
+- What it is — a plain English explanation of the project
+- What it does — key features and capabilities
+- How to use it — working installation commands and code examples
+- Who it helps — the intended audience and use cases
+- Why it is awesome — what makes it stand out from alternatives
+- License — the open source license type
+- Popularity — community adoption signals such as GitHub stars
+
+## Contributing
+
+Anyone can contribute by adding new projects, improving existing entries, fixing outdated information, or suggesting new categories. Contribution guidelines and entry templates are provided in the repository root.
+
+## Scope
+
+This encyclopedia covers all major areas of software development including but not limited to artificial intelligence, web development, systems programming, data engineering, cybersecurity, mobile development, game development, cloud computing, automation, and developer tooling. The project grows continuously as the open source ecosystem evolves.
+
+## License
+
+MIT
