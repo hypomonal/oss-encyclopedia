@@ -8,7 +8,6 @@
 
 ![Stars](https://img.shields.io/github/stars/OWNER/REPO?style=social)
 ![License](https://img.shields.io/badge/license-LICENSE-blue)
-![Language](https://img.shields.io/badge/language-LANGUAGE-yellow)
 
 | Field | Info |
 |-------|------|
@@ -16,6 +15,7 @@
 | 👤 **Made by** | Author or Organization |
 | ⚖️ **License** | MIT / Apache-2.0 / GPL-3.0 / etc. |
 | 🌐 **Website** | https://example.com |
+| 💻 **GitHub** | https://github.com/owner/repo |
 
 ---
 
@@ -28,13 +28,8 @@
 - Feature or capability 3
 
 **🚀 How to use it:**
-```bash
-# Installation
-npm install / pip install / brew install
-```
-```language
-// Basic usage example — keep it minimal and working
-```
+Installation command here
+Basic usage example here — keep it minimal and working
 
 **💡 Who it helps:**
 Who is the target user? Developers? Data scientists? Beginners? DevOps teams?
@@ -47,8 +42,7 @@ What makes this special? Why use THIS over alternatives? What's the wow factor?
 ## ✅ Submission Checklist
 
 - [ ] All fields filled in
-- [ ] Code example tested and working
 - [ ] Correct category folder
-- [ ] File named `repo-name.md` (lowercase, hyphens)
-- [ ] Added to category `README.md` index table
+- [ ] File named repo-name.md (lowercase, hyphens)
+- [ ] Added to category README.md index table
 - [ ] Not already listed
