@@ -52,4 +52,3 @@ What makes this special? Why use THIS over alternatives? What's the wow factor?
 - [ ] File named `repo-name.md` (lowercase, hyphens)
 - [ ] Added to category `README.md` index table
 - [ ] Not already listed
-
