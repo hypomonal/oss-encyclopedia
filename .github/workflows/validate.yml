@@ -1,1 +1,32 @@
+name: ✅ Validate Entries
 
+on:
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check markdown files exist
+        run: |
+          echo "🔍 Checking all category README files exist..."
+          for category in ai-ml devtools web-frameworks databases security mobile cli-tools data-science game-dev cloud-devops; do
+            if [ ! -f "categories/$category/README.md" ]; then
+              echo "❌ Missing: categories/$category/README.md"
+              exit 1
+            else
+              echo "✅ Found: categories/$category/README.md"
+            fi
+          done
+
+      - name: Check for empty files
+        run: |
+          echo "🔍 Checking for empty markdown files..."
+          find categories -name "*.md" -empty -print | while read f; do
+            echo "❌ Empty file: $f"
+            exit 1
+          done
+          echo "✅ No empty files found!"
